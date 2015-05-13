@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)RollDiceButtonPressed:(UIButton *)sender;
+
+
+- (IBAction)resetDiceButtonPressed:(UIButton *)sender;
+
 
 @end
 

@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)RollDiceButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)resetDiceButtonPressed:(UIButton *)sender {
+}
 @end

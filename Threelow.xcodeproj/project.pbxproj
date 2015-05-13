@@ -14,6 +14,9 @@
 		96C1A7661B02E36300437E96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C1A7651B02E36300437E96 /* Images.xcassets */; };
 		96C1A7691B02E36300437E96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C1A7671B02E36300437E96 /* LaunchScreen.xib */; };
 		96C1A7751B02E36300437E96 /* ThreelowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A7741B02E36300437E96 /* ThreelowTests.m */; };
+		96C1A7801B02E57A00437E96 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A77F1B02E57A00437E96 /* Dice.m */; };
+		96C1A7831B02EC2500437E96 /* DiceFace1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A7821B02EC2500437E96 /* DiceFace1.m */; };
+		96C1A7861B02ED7800437E96 /* DiceFace2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A7851B02ED7800437E96 /* DiceFace2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		96C1A76E1B02E36300437E96 /* ThreelowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreelowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C1A7731B02E36300437E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C1A7741B02E36300437E96 /* ThreelowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreelowTests.m; sourceTree = "<group>"; };
+		96C1A77E1B02E57A00437E96 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		96C1A77F1B02E57A00437E96 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		96C1A7811B02EC2500437E96 /* DiceFace1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceFace1.h; sourceTree = "<group>"; };
+		96C1A7821B02EC2500437E96 /* DiceFace1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceFace1.m; sourceTree = "<group>"; };
+		96C1A7841B02ED7800437E96 /* DiceFace2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceFace2.h; sourceTree = "<group>"; };
+		96C1A7851B02ED7800437E96 /* DiceFace2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceFace2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				96C1A75D1B02E36300437E96 /* AppDelegate.m */,
 				96C1A75F1B02E36300437E96 /* ViewController.h */,
 				96C1A7601B02E36300437E96 /* ViewController.m */,
+				96C1A77E1B02E57A00437E96 /* Dice.h */,
+				96C1A77F1B02E57A00437E96 /* Dice.m */,
+				96C1A7811B02EC2500437E96 /* DiceFace1.h */,
+				96C1A7821B02EC2500437E96 /* DiceFace1.m */,
+				96C1A7841B02ED7800437E96 /* DiceFace2.h */,
+				96C1A7851B02ED7800437E96 /* DiceFace2.m */,
 				96C1A7621B02E36300437E96 /* Main.storyboard */,
 				96C1A7651B02E36300437E96 /* Images.xcassets */,
 				96C1A7671B02E36300437E96 /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C1A7861B02ED7800437E96 /* DiceFace2.m in Sources */,
+				96C1A7801B02E57A00437E96 /* Dice.m in Sources */,
 				96C1A7611B02E36300437E96 /* ViewController.m in Sources */,
 				96C1A75E1B02E36300437E96 /* AppDelegate.m in Sources */,
 				96C1A75B1B02E36300437E96 /* main.m in Sources */,
+				96C1A7831B02EC2500437E96 /* DiceFace1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
